@@ -45,9 +45,9 @@ class Program
 
             Console.WriteLine("Обработка файлов завершена.");
         }
-        catch (Exception ex)
+        catch (Exception exception)
         {
-            Console.WriteLine($"Произошла ошибка: {ex.Message}");
+            Console.WriteLine($"Произошла ошибка: {exception.Message}");
         }
     }
 }
